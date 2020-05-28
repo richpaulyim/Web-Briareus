@@ -23,6 +23,7 @@ Top trending posts on Reddit, to be used with Reddit's PRAW API Python wrapper.
 #### Current Progress
 Working on clicks sequence, scraping and parsing. (Initial stages)
 
+
 #### Data Dump
 Data will be dumped on Kaggle a year from now; this will be done every year until I die or until I develop arthritis in my hands. 
 
