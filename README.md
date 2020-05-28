@@ -9,7 +9,7 @@ Stock data on the NASDAQ and NYSE from the Yahoo Finance Screener, to be used wi
 Working on task scheduler; integrating Pandas data reader library with MySQL database. (Final stages) 
 
 ### 2. Spotify-Hits -----
-Top trending songs on spotify, to be used with Spotify's API.
+Top trending songs on Spotify, to be used with Spotify's API.
 #### Current Progress
 Working on clicks sequence, scraping and parsing. (Initial stages)
 
@@ -19,7 +19,7 @@ Top trending YouTube videos from various categories, to be used to Google/YouTub
 Working on clicks sequence, scraping and parsing. (Initial stages)
 
 ### 4. Reddit-Hits -----
-Top trending songs on spotify, to be used with Reddit's PRAW API Python wrapper.
+Top trending posts on Reddit, to be used with Reddit's PRAW API Python wrapper.
 #### Current Progress
 Working on clicks sequence, scraping and parsing. (Initial stages)
 
