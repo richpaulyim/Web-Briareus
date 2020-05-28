@@ -8,7 +8,7 @@ import os
 
 # It will be assumed that user configuration
 # satisfies host, user and password fields
-with open('~/Documents/Configs/config_yf.json') as json_data:
+with open('/home/richpaulyim/Documents/Configs/configyf.json') as json_data:
     # make sure to have the correct path specified
     data = json.load(json_data)
 sqlconfig = data['mysql']
