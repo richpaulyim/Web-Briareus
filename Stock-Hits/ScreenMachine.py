@@ -23,7 +23,8 @@ class ScreenMachine():
             options.add_argument("--headless")
         options.add_experimental_option("excludeSwitches", ["enable-automation"])
         options.add_experimental_option('useAutomationExtension', False)
-
+        options.add_argument('--no-sandbox')
+        options.add_argument('--disable-dev-shm-usage')
         # INITIALIZE CHROME WEBDRIVER
         self.driver = webdriver.Chrome(options=options, executable_path=r'/home/richpaulyim/bin/chromedriver')
         self.driver.get("https://finance.yahoo.com/screener/new")
