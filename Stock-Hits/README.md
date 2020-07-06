@@ -13,8 +13,9 @@ This is the module that builds and implements selenium webdriver with specified 
 ### ScreenPath.py
 This script specifies the xpath locations of certain tags and their content
 
-## Next steps:
-- Automation with CronTabs, or more elegant solution, for daily scraping without manual script run. 
+### ../crontab
+The relevant crontab script is in this file for executing ExtractInsert.py on
+the weekdays at 2:30 PM, Pacific Time.
 
 ### How to get mysql up and running
 `sudo apt-get install mysql-server`
@@ -22,6 +23,7 @@ This script specifies the xpath locations of certain tags and their content
 `sudo mysql -u`
 Then sign in with root-user password.
 `GRANT ALL PRIVILEGES on *.* to 'user'@'localhost' IDENTIFIED BY 'password';`
+Make sure that you have the correct config folder path in all of the scripts described above.
 
 ### Make sure chromedriver is installed
 Visit https://chromedriver.chromium.org/downloads to get a download of chromedriver and make sure it is in your system path. 
