@@ -9,14 +9,20 @@ Stock data on the NASDAQ and NYSE from the Yahoo Finance Screener. Stores data i
 ### Spotify-Hits 
 Top trending songs on Spotify. Data is available in CSV folder; optional storing script into mysql database.
 
-### Old
+
+## Miscellaneous
+#### Old
 Old toy scripts and files.
 
-### crontab
+#### Configurations for MySQL databases with "config.json"
+File "config.json" contains general and basic configurations that are used as
+database credentials for the web scrapers above.
+
+#### Crontab with "crontab\_sample"
 File "crontab\_sample" contains the commands that can be used to tell cron damaeon to
 execute scheduled tasks.
 
-#### Using requirements.txt
+#### PIP for Web-Briareus with "requirements.txt"
 Read in the requirements.txt folder
 `pip install -r requirements.txt`
 In your virtual environment. The correct packages will be installed. 
