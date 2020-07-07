@@ -10,7 +10,7 @@ Stock data on the NASDAQ and NYSE from the Yahoo Finance Screener. Stores data i
 Top trending songs on Spotify. Data is available in CSV folder; optional storing script into MySQL database.
 
 ### Youtube-Hits 
-Top trending videos on Youtube. Stores data in MySQL database.
+Top trending videos on YouTube. Stores data in MySQL database.
 
 
 ## Miscellaneous
