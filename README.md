@@ -1,6 +1,6 @@
 # Web-Tools
 
-This repo holds different web-scrapers and tools. Each folder has its own README.md file.
+This repo holds original web-scrapers and tools. Each folder has its own README.md file.
 
 ## Scrapers
 ### Stock-Hits 
