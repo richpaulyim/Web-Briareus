@@ -9,18 +9,11 @@ Stock data on the NASDAQ and NYSE from the Yahoo Finance Screener. Stores data i
 ### Spotify-Hits 
 Top trending songs on Spotify. Data is available in CSV folder; optional storing script into mysql database.
 
-## Under Construction: 
-
-### ----- Youtube-Hits -----
-Top trending YouTube videos from various categories, to be used to Google/YouTubes REST API Python wrapper. 
-#### Current Progress
-Working on clicks sequence, scraping and parsing. (Initial stages)
-
-#### Old
+### Old
 Old toy scripts and files.
 
-#### crontab
-File "crontab" contains the commands that can be used to tell cron damaeon to
+### crontab
+File "crontab\_sample" contains the commands that can be used to tell cron damaeon to
 execute scheduled tasks.
 
 #### Using requirements.txt
