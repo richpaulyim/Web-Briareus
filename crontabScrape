@@ -1,6 +1,0 @@
-# include this as your crontab commands list
-SHELL=/bin/sh
-PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/sbin:/usr/bin:/home/richpaulyim/bin
-
-# Scrape from Yahoo Finance
-25 14 * * 1-5 /home/richpaulyim/Projects/denv/bin/python /home/richpaulyim/Projects/Web-Tools/Stock-Hits/ExtractInsert.py > /var/log/myjob.log 2>&1

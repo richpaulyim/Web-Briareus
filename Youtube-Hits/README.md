@@ -1,10 +1,10 @@
 # YahooFinance Screener Scraper 
 This is a fully working version of a webscraper I built that uploads scraped data from yahoo finance's website onto a MySQL database. This project would have been literally impossible without all the open source resources and countless online forum posts and answers. 
 
-### ConstructDatabaseFinance.py
+### ConstructDatabase.py
 This script creates the YahooFinance database with the user's specfied MySQL congifuration file of user, host and password. It also creates the necessary tables of 20 percent gain/loss, 10 percent gain/loss and 5 percent gain/loss.
 
-### ExtractInsertFinance.py
+### ExtractInsert.py
 This script extracts information from Yahoo Finance using the ScreenMachine module created specifically for this problem. It also performs the insertion into the MySQL database using the mysql.connector module.
 
 ### ScreenMachine.py
@@ -32,4 +32,9 @@ This must be the chromedriver installation version.
 Then unzip and extract your chromedriver to path, and specify the path of the driver. In this case we extract to /bin, which is usually in PATH by default. 
 `sudo apt-get install unzip`
 `unzip ***chromdriver*** -d /bin`
+
+### Using requirements.txt
+Read in the requirements.txt folder
+`pip install -r requirements.txt`
+In your virtual environment. The correct packages will be installed. 
 

@@ -1,2 +1,0 @@
-# spotifycharts.com/regional
-
