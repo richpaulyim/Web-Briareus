@@ -7,7 +7,7 @@ import mysql.connector
 import json
 
 # loading json MySQL configurations and database
-with open("/home/richpaulyim/Documents/configs/configspot.json") as json_data:
+with open("/home/richpaulyim/Documents/configs/configyt.json") as json_data:
     data = json.load(json_data)
 sqlconfig = data['mysql']
 
