@@ -18,5 +18,4 @@ python script.
 
 ### Spotlight.py
 Uses standard suite of python web scraping and parsing modules. Functions to
-generate the CSVs in the CSV folder are contained under the "main" namespace
-contained at the very end. 
+generate the CSVs in the CSV folder are contained under the '__name__' idiom describing and determining the execution context of the script apart from when it is being imported by another script.   
