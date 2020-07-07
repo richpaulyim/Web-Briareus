@@ -7,7 +7,7 @@ This repo holds different web-scrapers and tools. Each folder has its own README
 Stock data on the NASDAQ and NYSE from the Yahoo Finance Screener. Stores data in MySQL database. 
 
 ### Spotify-Hits 
-Top trending songs on Spotify. Data is available in CSV folder; optional storing script into mysql database.
+Top trending songs on Spotify. Data is available in CSV folder; optional storing script into MySQL database.
 
 
 ## Miscellaneous
