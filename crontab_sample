@@ -2,6 +2,6 @@ SHELL=/bin/sh
 PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/home/richpaulyim/bin
 
 # Scrape from Yahoo Finance
-25 14 * * 1-5 /home/richpaulyim/Projects/denv/bin/python /home/richpaulyim/Projects/Web-Tools/Stock-Hits/ExtractInsertFinance.py > /var/log/finance.log 2>&1
+0 15 * * 1-5 /home/richpaulyim/Projects/denv/bin/python /home/richpaulyim/Projects/Web-Briareus/Stock-Hits/ExtractInsertFinance.py > /var/log/finance.log 2>&1
 # Scrape from Spotify Charts 
-25 14 * * * /home/richpaulyim/Projects/denv/bin/python /home/richpaulyim/Projects/Web-Tools/Spotify-Hits/ExtractInsertSpotify.py > /var/log/spotify.log 2>&1
+0 15 * * * /home/richpaulyim/Projects/denv/bin/python /home/richpaulyim/Projects/Web-Briareus/Spotify-Hits/ExtractInsertSpotify.py > /var/log/spotify.log 2>&1
