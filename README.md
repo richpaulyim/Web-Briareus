@@ -13,8 +13,7 @@ Top trending songs on Spotify. Data is available in CSV folder; optional storing
 Top trending videos on YouTube. Stores data in MySQL database.
 
 
-## Miscellaneous
-
+## Template-Configs 
 
 #### Configurations for MySQL databases with "config.json"
 File "config.json" contains general and basic configurations that are used as
@@ -25,9 +24,6 @@ Read in the requirements.txt folder
 `pip install -r requirements.txt`
 In your virtual environment. The correct packages will be installed. 
 
-#### Crontab with "crontab\_sample"
+#### Crontab with "crontab"
 File "crontab\_sample" contains the commands that can be used to tell cron damaeon to
 execute scheduled tasks.
-
-#### Old
-Old toy scripts and files.
