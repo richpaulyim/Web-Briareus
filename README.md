@@ -3,10 +3,13 @@
 This repo holds original web-scrapers and tools. Each folder has its own README.md file.
 
 ## Scrapers
+
 ### Stock-Hits 
+![alt text](https://github.com/richpaulyim/Web-Briareus/blob/master/Templates-Configs/stockhits.png)
 Stock data on the NASDAQ and NYSE from the Yahoo Finance Screener. Stores data in MySQL database. 
 
 ### Spotify-Hits 
+![alt text](https://github.com/richpaulyim/Web-Briareus/blob/master/Templates-Configs/spotifyhits.png)
 Top trending songs on Spotify. Data is available in CSV folder; optional storing script into MySQL database.
 
 ### Youtube-Hits 
