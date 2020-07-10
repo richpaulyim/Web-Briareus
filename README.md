@@ -1,6 +1,6 @@
-# Web-Tools
+# Web-Briareus
 
-This repo holds original web-scrapers and tools. Each folder has its own README.md file.
+This repo holds original web-scrapers. Each folder has its own README.md file.
 
 ## Scrapers
 
@@ -12,8 +12,7 @@ Stock data on the NASDAQ and NYSE from the Yahoo Finance Screener. Stores data i
 ![alt text](https://github.com/richpaulyim/Web-Briareus/blob/master/Templates-Configs/spotifyhits.png)
 Top trending songs on Spotify. Data is available in CSV folder; optional storing script into MySQL database.
 
-### Youtube-Hits 
-Top trending videos on YouTube. Stores data in MySQL database.
+#### (More web scrapers to be added)
 
 
 ## Template-Configs 
@@ -30,3 +29,5 @@ In your virtual environment. The correct packages will be installed.
 #### Crontab with "crontab"
 File "crontab\_sample" contains the commands that can be used to tell cron damaeon to
 execute scheduled tasks.
+
+("Briareus, also called Aegaeon, in Greek mythology, one of three 100-armed, 50-headed Hecatoncheires (from the Greek words for “hundred” and “hands”), the sons of the deities Uranus (Heaven) and Gaea (Earth)." -Encyclopaedia Britannica)
